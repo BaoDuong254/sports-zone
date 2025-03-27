@@ -1,16 +1,30 @@
 {
     "name": "sports-zone",
     "version": "1.0.0",
-    "description": "",
+    "description": "A simple sports website",
+    "keywords": [
+        "sports",
+        "website",
+        "html",
+        "css",
+        "bootstrap"
+    ],
+    "homepage": "https://github.com/BaoDuong254/sports-zone#readme",
+    "bugs": {
+        "url": "https://github.com/BaoDuong254/sports-zone/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BaoDuong254/sports-zone.git"
+    },
+    "license": "ISC",
+    "author": "BaoDuong254 <duonggiabao254@gmail.com>",
+    "type": "commonjs",
     "main": "index.js",
     "scripts": {
         "format": "prettier --write .",
         "autoPrefix": "postcss asset/css/*.css --dir asset/css/"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "type": "commonjs",
     "devDependencies": {
         "autoprefixer": "^10.4.21",
         "postcss": "^8.5.3",
