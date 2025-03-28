@@ -3,11 +3,39 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Primary Meta Tags -->
+        <title>Sports Zone</title>
+        <meta name="title" content="Sports Zone" />
         <meta
             name="description"
-            content="SportsZone - Website cung cấp nhiều thông tin về các giải thể thao quy mô lớn khắp cả nước"
+            content="Website cung cấp nhiều thông tin về các giải thể thao quy mô lớn khắp cả nước"
         />
-        <title>Sports Zone</title>
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:url"
+            content="https://baoduong254.github.io/sports-zone/"
+        />
+        <meta property="og:title" content="Sports Zone" />
+        <meta
+            property="og:description"
+            content="Website cung cấp nhiều thông tin về các giải thể thao quy mô lớn khắp cả nước"
+        />
+        <meta property="og:image" content="./asset/img/meta_img.png" />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+            property="twitter:url"
+            content="https://baoduong254.github.io/sports-zone/"
+        />
+        <meta property="twitter:title" content="Sports Zone" />
+        <meta
+            property="twitter:description"
+            content="Website cung cấp nhiều thông tin về các giải thể thao quy mô lớn khắp cả nước"
+        />
+        <meta property="twitter:image" content="./asset/img/meta_img.png" />
         <!-- Favicon -->
         <link
             rel="apple-touch-icon"
@@ -28,6 +56,23 @@
         />
         <link rel="manifest" href="./asset/favicon/site.webmanifest" />
         <!-- End Favicon -->
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- End Font -->
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- End Font Awesome -->
         <!-- CSS -->
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -37,10 +82,117 @@
         />
         <link rel="stylesheet" href="./asset/css/base.css" />
         <link rel="stylesheet" href="./asset/css/style.css" />
-        <link rel="stylesheet" href="./asset/css/reponsive.css" />
         <!-- End CSS -->
     </head>
     <body>
+        <!-- Header -->
+        <header>
+            <div class="top-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div
+                                class="search d-flex justify-content-between align-items-center"
+                            >
+                                <span class="search__title">
+                                    Nhất Kiến Văn - Giải pháp cho doanh nghiệp
+                                </span>
+                                <div class="search__input">
+                                    <input
+                                        type="text"
+                                        class="search__input--text"
+                                        placeholder="Search......"
+                                    />
+                                    <button
+                                        title="Search"
+                                        class="search__input--btn"
+                                    >
+                                        <i
+                                            class="fa-solid fa-magnifying-glass"
+                                        ></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div
+                                class="nav d-flex justify-content-between align-items-center"
+                            >
+                                <div class="nav__logo">
+                                    <a href="#!">
+                                        <img
+                                            src="./asset/img/logo.svg"
+                                            alt="Sports Zone"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="nav__menu">
+                                    <ul
+                                        class="nav__menu--list d-flex align-items-center mb-0 list-unstyled"
+                                    >
+                                        <li class="nav__menu--item">
+                                            <a href="#!" class="nav__menu--link"
+                                                >TRANG CHỦ</a
+                                            >
+                                        </li>
+                                        <li class="nav__menu--item">
+                                            <a href="#!" class="nav__menu--link"
+                                                >GIẢI ĐẤU
+                                                <i
+                                                    class="fa-solid fa-angle-down"
+                                                ></i
+                                            ></a>
+                                        </li>
+                                        <li class="nav__menu--item">
+                                            <a href="#!" class="nav__menu--link"
+                                                >ĐĂNG KÝ TỔ CHỨC</a
+                                            >
+                                        </li>
+                                        <li class="nav__menu--item">
+                                            <a href="#!" class="nav__menu--link"
+                                                >TIN TỨC</a
+                                            >
+                                        </li>
+                                        <li class="nav__menu--item">
+                                            <a href="#!" class="nav__menu--link"
+                                                >LIÊN HỆ</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="nav__social">
+                                    <a href="#!" class="nav__social--link">
+                                        <img
+                                            src="./asset/img/facebook.svg"
+                                            alt="facebook"
+                                        />
+                                    </a>
+                                    <a href="#!" class="nav__social--link">
+                                        <img
+                                            src="./asset/img/email.svg"
+                                            alt="facebook"
+                                        />
+                                    </a>
+                                    <a href="#!" class="nav__social--link">
+                                        <img
+                                            src="./asset/img/phone.svg"
+                                            alt="facebook"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End Header -->
         <!-- Bootstrap -->
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
