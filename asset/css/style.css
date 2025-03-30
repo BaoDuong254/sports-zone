@@ -74,7 +74,7 @@
     height: calc(100vh - 10.8rem);
 }
 .hero__content {
-    margin-top: 2.1rem;
+    margin-top: 7.1rem;
     width: 52rem;
 }
 .hero__content--title {
@@ -117,3 +117,203 @@
     color: #68cbe1;
 }
 /* End Hero */
+/* Event */
+.event {
+    padding-top: 7rem;
+    height: 2000px;
+}
+.intro__info--title {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #4cc5e7 0%, #0b4cff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 1rem;
+}
+.intro__info--subtitle {
+    color: #23c779;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 2.7rem;
+    margin-bottom: 1rem;
+}
+.intro__info--desc {
+    color: #000;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    width: 72.9rem;
+    margin: 0 auto;
+    padding-top: 0.8rem;
+    border-top: 0.2rem solid #23c779;
+}
+.enroll {
+    background-image: url('../img/enroll.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 49.4rem;
+    padding: 11.5rem 6.5rem;
+    margin-top: 2.7rem;
+}
+.enroll__content {
+    width: 52rem;
+}
+.enroll__content--subtitle {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+}
+.enroll__content--desc {
+    color: #fff;
+    font-family: 'Audible Sans';
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+.enroll__content--btn {
+    width: 21.9rem;
+    height: 6.7rem;
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+    background: #003fbb;
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+.enroll__content--btn:hover {
+    background: #fff;
+    color: #003fbb;
+}
+.countdown {
+    margin-top: 2.7rem;
+}
+.countdown-row {
+    --bs-gutter-x: 30px;
+}
+.countdown__title {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4.96rem;
+    letter-spacing: -0.16rem;
+    background: var(
+        --Gradient-ch,
+        linear-gradient(90deg, #4cc5e7 0%, #0b4cff 100%)
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2rem;
+}
+.timer {
+    margin-bottom: 2.7rem;
+}
+.timer__content {
+    width: 10.9rem;
+    height: 10.9rem;
+    padding: 1.7rem 0.8rem;
+    border-radius: 0.5rem;
+    background: var(
+        --Gradient-ch,
+        linear-gradient(90deg, #4cc5e7 0%, #0b4cff 100%)
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+.timer__content:hover {
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.5);
+}
+.timer__content--number,
+.timer__content--text {
+    color: #fff;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 124%; /* 2.976rem */
+    letter-spacing: -0.096rem;
+}
+.event-card .card {
+    width: 54rem;
+    padding: 1rem 1rem 2rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+.event-card .card:hover {
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.5);
+}
+.card__image {
+    width: 52rem;
+    height: 25rem;
+    margin-bottom: 1rem;
+}
+.card__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card__info {
+    display: flex;
+}
+.card__info i {
+    color: #0b4cff;
+    font-size: 1.5rem;
+}
+.card__info--date {
+    color: #000;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-right: 10.3rem;
+}
+.card__info--author {
+    color: #000;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.card__title {
+    color: #000;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 1.5rem 0 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 3);
+    line-clamp: var(--line-clamp, 3);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.card__desc {
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: 400;
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 3);
+    line-clamp: var(--line-clamp, 3);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+.card__read-more a {
+    color: #0b4cff;
+    font-size: 1.4rem;
+    font-weight: 400;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.3s ease-in-out;
+}
+.card__read-more a:hover {
+    color: #00819e;
+}
+/* End Event */
